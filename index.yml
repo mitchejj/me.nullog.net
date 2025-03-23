@@ -1,23 +1,32 @@
 layout: layouts/base.vto
 header:
-  title: Jason Mitchell 
-  description:  'running, °o°, tech, life'
+  title: Jason Mitchell
+  description: 'running, °o°, tech, life'
   avatar: /avatar.jpg
 metas:
   title: =header.title
   description: =header.description
   image: =header.avatar
   generator: true
-  twitter: ''
 links:
   - text: Website
     href: 'https://nullog.net'
-    type: ''
-  - type: mastodon
-    text: '@mitchejj@wroldkey.io'
-    href: 'https://worldkey.io/@mitchejj'
+    only_icon: false
   - type: github
     text: GitHub
     href: 'https://github.com/mitchejj/'
-footer: "Powered by [Lume](https://lume.land) & [SimpleMe](https://github.com/lumeland/theme-simple-me) theme"
-extra_head: ''
+    only_icon: false
+  - type: threads
+    text: 'Threads'
+    href: 'https://www.threads.net/@mitchejj'
+  - type: bluesky
+    text: 'Bluesky'
+    href: 'https://bsky.app/profile/mitchejj.bsky.social'
+    only_icon: false
+  - type: mastodon
+    text: 'Mastodon'
+    href: 'https://worldkey.io/@mitchejj'
+    only_icon: false
+footer: >-
+  Powered by [Lume](https://lume.land) &
+  [SimpleMe](https://github.com/lumeland/theme-simple-me) theme
