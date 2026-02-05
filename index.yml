@@ -21,7 +21,7 @@ links:
     href: 'https://www.threads.net/@mitchejj'
   - type: bluesky
     text: 'Bluesky'
-    href: 'https://bsky.app/profile/mitchejj.bsky.social'
+    href: 'https://bsky.app/profile/nullog.net'
     only_icon: false
   - type: mastodon
     text: 'Mastodon'
